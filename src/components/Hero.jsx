@@ -10,8 +10,8 @@ const Hero = () => {
         {/*Left Side*/}
         <div className='order-2 sm:order-1 '>
             <h1 className='font-bold text-5xl sm:text-6xl sm:mb-4  '>More than just shorter links</h1>
-            <p className='text-gray-500 my-2'>Build your brands recognition and get detailed insights on how your links are performing</p>
-            <Link><button  className='rounded-full py-2 mt-2 text-white w-32 bg-cyan-300'>Get Started</button></Link> 
+            <p className='text-gray-500  my-2'>Build your brands recognition and get detailed insights on how your links are performing</p>
+            <Link><button  className='rounded-full py-2 mt-2 font-bold text-white w-32 bg-cyan-300'>Get Started</button></Link> 
         </div>
 
         {/*Right Side*/}

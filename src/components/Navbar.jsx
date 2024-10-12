@@ -30,23 +30,23 @@ const Navbar = () => {
             <NavLink to='/'>
                 <p>Login</p>
             </NavLink> 
-            <NavLink to='/' className='rounded-full py-3 px-4 bg-cyan-300'>
+            <NavLink to='/' className='rounded-full py-3 px-4 font-bold text-white bg-cyan-300'>
                 <p>Signup</p>
             </NavLink> 
         </div>
 
         <img onClick={()=> visible === false ? setVisible(true) : setVisible(false) } src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden'  alt="" />
         {/* Sidebar menu for small screenx */}
-        <div className={`absolute top-20 right-0 bottom-0 overflow-hidden bg-blue-950 mx- rounded-md  opacity-100 transition-all ${visible ? 'w-full' : 'w-0'}`}>
-            <div className='flex flex-col items-center  gap-2 justify-center text-white'>
+        <div className={`absolute top-20 right-0 bottom-0 z-20 overflow-hidden bg-blue-950 mx- rounded-md  opacity-100 transition-all ${visible ? 'w-full' : 'w-0'}`}>
+            <div className='flex flex-col items-center h-full gap-2 sm:gap-4 sm:text-md justify-center text-white'>
                
-               <div>
+               <div className=''>
                     <NavLink to='/'><p>Features</p></NavLink>
                     <NavLink to='/'><p>Pricing</p></NavLink>
                     <NavLink to='/'><p>Resources</p></NavLink>
                     <hr />
                     <NavLink to='/'><p>Login</p></NavLink>
-                    <NavLink to='/'  className='rounded-full py-2 px-4 bg-cyan-300'><p>Signup</p></NavLink>
+                    <NavLink to='/'  className='w-full p-20 bg-cyan-300'><p>Signup</p></NavLink>
                 </div> 
 
                 
