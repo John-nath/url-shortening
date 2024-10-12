@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boost-bg {
+  background-image: url('./assets/boost_bg_desktop.svg');
+}
+
+.shorten-bg {
+  background-image: url('./assets/shorten_bg_desktop.svg'); 
+}
+
+
